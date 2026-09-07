@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the associated publications."
+title: "Spatially Honest Machine Learning for Geothermal Temperature Prediction"
+authors:
+  - family-names: Alonge
+    given-names: Oluwasogo Bolaji
+    orcid: "https://orcid.org/0009-0001-8685-3957"
+    affiliation: "University of North Dakota"
+    email: bolaji.alonge@und.edu
+  - family-names: Ji
+    given-names: Yun
+    orcid: "https://orcid.org/0000-0003-0754-5321"
+    affiliation: "University of North Dakota"
+  - family-names: Alamooti
+    given-names: Moones
+    orcid: "https://orcid.org/0009-0009-6128-563X"
+    affiliation: "University of North Dakota"
+license: MIT
