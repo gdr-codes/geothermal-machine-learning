@@ -53,6 +53,12 @@ Python 3.12, scikit-learn 1.8.0, XGBoost 3.2.0. Results are insensitive to the s
 version: re-running the tree-family benchmark under 1.5.1 reproduces every model and protocol RMSE
 identically to eight decimal places.
 
+XGBoost results depend on its thread count; the other models do not. The published results were
+produced with XGBoost using all 24 cores of the original machine, so the code pins `n_jobs=24`
+for XGBoost (NB13 and NB14 keep their original `n_jobs=4`). This removes the main source of
+run-to-run variation; a different CPU or XGBoost version can still shift XGBoost results slightly,
+and reproduction has not been tested on another machine.
+
 ## Licence
 
 PolyForm Noncommercial 1.0.0 (`LICENSE`). Free for research, teaching, personal study and use

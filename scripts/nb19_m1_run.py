@@ -87,7 +87,7 @@ def model_factory():
                                       random_seed=42, verbose=0),
         "xgboost": XGBRegressor(n_estimators=550, learning_rate=0.04, max_depth=6,
                                 subsample=0.9, colsample_bytree=0.9,
-                                random_state=42, n_jobs=-1),
+                                random_state=42, n_jobs=24),
         "gradient_boosting": GradientBoostingRegressor(n_estimators=450, learning_rate=0.05,
                                                        random_state=42),
         "random_forest": RandomForestRegressor(n_estimators=500, n_jobs=-1, random_state=42),
