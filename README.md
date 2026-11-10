@@ -36,6 +36,8 @@ notebooks above. These are the artefacts that study's Code Availability statemen
 | `nb19_m5_m6_run.py` | Moran's I spatial autocorrelation, spatial-block validation, per-state driver analysis |
 | `nb19_m9_dummy_baseline_paired.py` | Paired median-predictor baseline comparison |
 | `nb19_m14_coordinate_ablation.py` | Protocol gap measured with and without latitude/longitude |
+| `nb19_m12_imputation_paired_test.py` | Median imputation versus native missing-value handling, paired per state and per sample |
+| `nb19_m13_location_leakage.py` | Location-grouped split: how much of the random-split score comes from repeated samples at the same site |
 
 Each script reads the canonical dataset described under **Data** and writes its own result tables.
 Producers for the companion studies will be added as those studies are submitted.
